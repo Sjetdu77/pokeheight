@@ -1,0 +1,9 @@
+.poke-height {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #eee;
+    width: calc(75% - 32px);
+    height: calc(100% - 120px);
+    z-index: 2;
+}

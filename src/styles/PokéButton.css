@@ -1,0 +1,13 @@
+.poke-list-button {
+    text-align: left;
+    border-radius: 45px;
+    background-image: linear-gradient(#f77, white);
+}
+
+.poke-list-button-active {
+    background-image: linear-gradient(#77f, white);
+}
+
+.poke-form {
+    color: grey;
+}

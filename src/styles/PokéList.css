@@ -1,0 +1,16 @@
+.poke-list {
+    background-color: #ddd;
+    color: red;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    height: calc(100% - 32px);
+    overflow-y: scroll;
+    text-align: left;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}

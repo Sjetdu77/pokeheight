@@ -1,0 +1,13 @@
+.poke-title {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: #f77;
+    position: absolute;
+    width: calc(100% - 20px);
+    z-index: 50;
+}
+
+#poke-logo {
+    margin-left: 20px;
+}

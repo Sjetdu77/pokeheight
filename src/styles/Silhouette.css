@@ -1,0 +1,23 @@
+.poke-silhouette {
+    position: absolute;
+    z-index: 10;
+    bottom: calc(5% - 1px * var(--space) * var(--height) / var(--max));
+    height: calc((900% + var(--space) * 1px + var(--topSpace) * 1px) * var(--height) / var(--max));
+}
+
+.poke-silhouette.poke-silhouette-louka {
+    left: 2%;
+    height: calc((910% + var(--space) * 1px + var(--topSpace) * 1px) * var(--height) / var(--max));
+}
+
+.poke-silhouette.poke-silhouette-pokemon {
+    left: 25.5%;
+}
+
+.poke-silhouette.poke-silhouette-floatting {
+    top: calc(5% + 90% / var(--max) - var(--topSpace) * 1px);
+}
+
+.poke-silhouette-floatting.poke-silhouette-floatting-over {
+    top: 5%;
+}
